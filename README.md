@@ -5,8 +5,8 @@ A modern, AI-powered PDF management and interaction platform built with Next.js 
 ## ✨ Features
 
 - 🚀 **AI-Powered PDF Chat**: Interact with your PDF documents using advanced AI
-- 🧠 **Custom Fine-Tuned LLM**: Local deployment of specialized model for PDF understanding
-- 🤖 **Multi-Model AI Integration**: Google Generative AI + Custom LLM for optimal performance
+- 🧠 **Qwen2-VL-2B-Instruct Model**: Local vision-language model for advanced PDF understanding
+- 🤖 **Multi-Model AI Integration**: Google Generative AI + Qwen2-VL for optimal performance
 - 📱 **Modern UI/UX**: Beautiful, responsive design with glass morphism effects
 - 🔍 **Smart Analysis**: Extract insights and analyze PDF content with AI
 - 📝 **Note Management**: Create and manage notes from your PDFs
@@ -23,16 +23,25 @@ A modern, AI-powered PDF management and interaction platform built with Next.js 
 ### Generative AI Integration
 Our PDF Helper AI leverages cutting-edge generative AI technologies to provide intelligent document interaction:
 
-- **🧠 Custom Fine-Tuned LLM**: We've developed and deployed a specialized language model that runs locally, fine-tuned specifically for PDF document understanding and analysis
+- **🧠 Qwen2-VL-2B-Instruct**: Advanced vision-language model deployed locally for superior PDF understanding and multimodal analysis
 - **🌟 Google Generative AI (Gemini)**: Integrated for advanced reasoning, content generation, and multi-modal understanding
 - **🔄 Hybrid AI Architecture**: Combines the power of cloud-based GenAI with local custom models for optimal performance and privacy
 
+### Qwen2-VL-2B-Instruct Model Features
+- **👁️ Vision-Language Understanding**: Specialized model capable of processing both text and visual content from PDFs
+- **📄 Document Analysis**: Optimized for document understanding with 2B parameters for efficient local inference
+- **🖼️ Image Comprehension**: Advanced visual reasoning capabilities for charts, diagrams, and images within PDFs
+- **💡 Instruction Following**: Fine-tuned for following complex instructions and providing detailed responses
+- **⚡ Lightweight Architecture**: 2B parameter model optimized for local deployment with minimal resource requirements
+- **🔒 Privacy-First**: Runs entirely offline, ensuring document confidentiality and data security
+
 ### Custom Model Features
-- **📚 Domain-Specific Training**: Model trained on extensive PDF document datasets for superior comprehension
+- **📚 Vision-Language Processing**: Qwen2-VL-2B-Instruct model trained for comprehensive document understanding
 - **🏠 Local Deployment**: Runs entirely on-premise for maximum privacy and data security
 - **⚡ Optimized Inference**: GPU-accelerated processing with model quantization for fast responses
 - **🔒 Privacy-First**: All document processing happens locally, ensuring confidentiality
-- **🎯 Specialized Understanding**: Enhanced capability for academic papers, legal documents, technical manuals, and business reports
+- **🎯 Multimodal Understanding**: Enhanced capability for processing text, images, charts, and diagrams in PDFs
+- **📊 Efficient Architecture**: 2B parameter model provides excellent performance with minimal resource usage
 
 ### AI-Powered Features
 - **💬 Intelligent Conversations**: Natural language interface for document queries and analysis
@@ -44,6 +53,7 @@ Our PDF Helper AI leverages cutting-edge generative AI technologies to provide i
 - **📈 Performance Optimization**: Continuous model improvement through feedback loops and usage analytics
 
 ### Technical Implementation
+- **Qwen2-VL-2B-Instruct**: Local vision-language model for document understanding and analysis
 - **LM Studio SDK**: Local model management and inference optimization
 - **Redis Vector Store**: Efficient storage and retrieval of document embeddings
 - **Custom Training Pipeline**: Automated model fine-tuning and deployment workflow
